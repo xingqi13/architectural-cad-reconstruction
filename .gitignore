@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.bak
+.env
+.env.*
+*.dwg
+*.dxf
+*.pdf
+workbuddy-skill.zip
