@@ -2,8 +2,8 @@
 name: architectural-cad-reconstruction
 display_name: 建筑纸图识读与CAD重建
 display_name_en: Architectural-Drawing-Understanding-and-CAD-Reconstruction
-description: 根据扫描纸质图、照片、PDF 或已有 CAD 识读建筑、空间与结构关系，重建可编辑 CAD 并检查墙柱、门窗、楼梯、电梯、标高、空间连通性和待现场核实问题。
-description_zh: 识读扫描纸图并重建 CAD，核查建筑围护、空间、构件连接和现场待核问题。
+description: 把旧建筑的扫描纸图、照片或 PDF 重建为可编辑 CAD，也可对照原图检查已有 DWG。图纸歪斜时，用分散的轴线交点和已知尺寸校正，再叠图复核。线条模糊时，沿房间、走廊、电梯厅和管井追查边界与入口，识别漏墙、错洞和被误画成实墙的井道。墙角有残线时，核对墙基线与柱面，用天正修墙角。门窗、楼梯和电梯按原生构件检查洞口、开启方向、梯段与平台净宽。保存后重开图纸，逐点检查墙线和房间闭合，把原图无法确定的尺寸标在对应位置，供现场核实。
+description_zh: 把旧建筑的扫描纸图、照片或 PDF 重建为可编辑 CAD，也可对照原图检查已有 DWG。图纸歪斜时，用分散的轴线交点和已知尺寸校正，再叠图复核。线条模糊时，沿房间、走廊、电梯厅和管井追查边界与入口，识别漏墙、错洞和被误画成实墙的井道。墙角有残线时，核对墙基线与柱面，用天正修墙角。门窗、楼梯和电梯按原生构件检查洞口、开启方向、梯段与平台净宽。保存后重开图纸，逐点检查墙线和房间闭合，把原图无法确定的尺寸标在对应位置，供现场核实。
 description_en: Understand scanned architectural drawings, rebuild editable CAD and review spatial and structural connections.
 examples_zh:
   - 将扫描的旧建筑平面图识读并重建为可编辑 CAD，核查房间围护、门窗和通行关系。
@@ -13,7 +13,7 @@ examples_en:
   - Reconstruct editable CAD plans from scanned paper drawings and review rooms, openings and circulation.
   - Compare columns, grids and stair connections across floors and flag field checks.
   - Review slab, beam, stair, ramp and level relationships in a scanned section.
-version: 1.1.0
+version: 1.1.1
 author: Codex
 agent_created: true
 ---
