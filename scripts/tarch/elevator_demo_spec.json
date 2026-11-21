@@ -1,0 +1,46 @@
+{
+  "elevators": [
+    {
+      "corners": [
+        [
+          3000,
+          0
+        ],
+        [
+          6000,
+          4000
+        ]
+      ],
+      "door_wall_point": [
+        4500,
+        4000
+      ],
+      "counterweight_point": [
+        6000,
+        2000
+      ],
+      "wall": "3AB"
+    },
+    {
+      "corners": [
+        [
+          0,
+          0
+        ],
+        [
+          3000,
+          4000
+        ]
+      ],
+      "door_wall_point": [
+        1500,
+        4000
+      ],
+      "counterweight_point": [
+        0,
+        2000
+      ],
+      "wall": "3AE"
+    }
+  ]
+}

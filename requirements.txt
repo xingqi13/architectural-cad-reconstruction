@@ -1,3 +1,4 @@
 PyMuPDF
 ezdxf
 shapely>=2
+matplotlib

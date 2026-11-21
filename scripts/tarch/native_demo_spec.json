@@ -1,0 +1,11 @@
+{
+  "doors": [
+    {"point": [1500, 0], "wall": "3A9", "width": 800, "height": 2000},
+    {"point": [4500, 0], "wall": "3AD", "width": 900, "height": 2100},
+    {"point": [3000, 3000], "wall": "3AF", "width": 800, "height": 2000}
+  ],
+  "stairs": [
+    {"point": [8000, 6000], "height": 3000, "steps": 20},
+    {"point": [14000, 6000], "height": 3200, "steps": 20}
+  ]
+}

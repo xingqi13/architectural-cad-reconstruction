@@ -1,0 +1,22 @@
+{
+  "purpose": "demo",
+  "units": "mm",
+  "expected_spaces": 2,
+  "outside_access_doors": ["D1"],
+  "walls": [
+    {"id": "W1", "start": [0, 0], "end": [6000, 0], "thickness": 200, "alignment": "orthogonal", "evidence": "demo"},
+    {"id": "W2", "start": [6000, 0], "end": [6000, 4000], "thickness": 200, "alignment": "orthogonal", "evidence": "demo"},
+    {"id": "W3", "start": [6000, 4000], "end": [0, 4000], "thickness": 200, "alignment": "orthogonal", "evidence": "demo"},
+    {"id": "W4", "start": [0, 4000], "end": [0, 0], "thickness": 200, "alignment": "orthogonal", "evidence": "demo"},
+    {"id": "W5", "start": [3000, 0], "end": [3000, 4000], "thickness": 100, "alignment": "orthogonal", "evidence": "demo"}
+  ],
+  "openings": [
+    {"id": "D1", "kind": "door", "wall": "W1", "center": [1500, 0], "width": 900, "swing": "left", "evidence": "demo"},
+    {"id": "D2", "kind": "door", "wall": "W5", "center": [3000, 2000], "width": 900, "swing": "left", "evidence": "demo"},
+    {"id": "C1", "kind": "window", "wall": "W3", "center": [1500, 4000], "width": 1200, "evidence": "demo"}
+  ],
+  "room_labels": [
+    {"text": "SPACE A", "point": [1500, 2500], "evidence": "demo"},
+    {"text": "SPACE B", "point": [4500, 2500], "evidence": "demo"}
+  ]
+}
