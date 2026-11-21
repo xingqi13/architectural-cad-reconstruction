@@ -2,9 +2,9 @@
 name: architectural-cad-reconstruction
 display_name: 建筑纸图识读与CAD重建
 display_name_en: Architectural-Drawing-Understanding-and-CAD-Reconstruction
-description: 把旧建筑的扫描纸图、照片或 PDF 重建为可编辑 CAD，也可对照原图检查已有 DWG。图纸歪斜时，用分散的轴线交点和已知尺寸校正，再叠图复核。线条模糊时，沿房间、走廊、电梯厅和管井追查边界与入口，识别漏墙、错洞和被误画成实墙的井道。墙角有残线时，核对墙基线与柱面，用天正修墙角。门窗、楼梯和电梯按原生构件检查洞口、开启方向、梯段与平台净宽。保存后重开图纸，逐点检查墙线和房间闭合，把原图无法确定的尺寸标在对应位置，供现场核实。
-description_zh: 把旧建筑的扫描纸图、照片或 PDF 重建为可编辑 CAD，也可对照原图检查已有 DWG。图纸歪斜时，用分散的轴线交点和已知尺寸校正，再叠图复核。线条模糊时，沿房间、走廊、电梯厅和管井追查边界与入口，识别漏墙、错洞和被误画成实墙的井道。墙角有残线时，核对墙基线与柱面，用天正修墙角。门窗、楼梯和电梯按原生构件检查洞口、开启方向、梯段与平台净宽。保存后重开图纸，逐点检查墙线和房间闭合，把原图无法确定的尺寸标在对应位置，供现场核实。
-description_en: Understand scanned architectural drawings, rebuild editable CAD and review spatial and structural connections.
+description: 从空间完整性入手，识读扫描建筑图、重建可编辑 CAD，也可复核已有图纸。先辨认房间、走廊、楼梯间和井道的用途与相邻关系，再沿每个空间的边界走一圈，核对哪些位置应由墙分隔，门应通向哪里，窗应落在哪面墙上，哪些位置原本就开敞。发现围护中断、通道被堵或门窗错位时，对照原图修正，再从墙两侧的相邻空间分别复查。优先使用天正建筑原生构件。没有天正时，用普通 AutoCAD 的可编辑图元和块完成重建与检查。
+description_zh: 从空间完整性入手，识读扫描建筑图、重建可编辑 CAD，也可复核已有图纸。先辨认房间、走廊、楼梯间和井道的用途与相邻关系，再沿每个空间的边界走一圈，核对哪些位置应由墙分隔，门应通向哪里，窗应落在哪面墙上，哪些位置原本就开敞。发现围护中断、通道被堵或门窗错位时，对照原图修正，再从墙两侧的相邻空间分别复查。优先使用天正建筑原生构件。没有天正时，用普通 AutoCAD 的可编辑图元和块完成重建与检查。
+description_en: Reconstruct editable CAD from scans or review an existing floor plan room by room. Trace boundaries, identify intentional openings, and check which spaces each door connects and which wall hosts each window. Compare discrepancies with the source and recheck both sides after repairs. Prefer native TArch components, or use editable AutoCAD entities and blocks when TArch is unavailable.
 examples_zh:
   - 将扫描的旧建筑平面图识读并重建为可编辑 CAD，核查房间围护、门窗和通行关系。
   - 对照多层平面核查柱与轴网、墙柱节点和楼梯连接，标出待现场核实问题。
@@ -13,14 +13,14 @@ examples_en:
   - Reconstruct editable CAD plans from scanned paper drawings and review rooms, openings and circulation.
   - Compare columns, grids and stair connections across floors and flag field checks.
   - Review slab, beam, stair, ramp and level relationships in a scanned section.
-version: 1.1.1
+version: 1.1.2
 author: Codex
 agent_created: true
 ---
 
 # 建筑纸图识读与CAD重建
 
-将扫描纸质建筑图、照片或 PDF 依据实际图面信息重建为可编辑 CAD；结合平面、立面、剖面和已有资料判断建筑围护、空间、构件及流线，发现并修正有依据的绘图缺陷。适用于现场核对底图、既有图修改及用户指定的其他图纸成果。仅有实物纸图时，先取得可读取的扫描件或照片。
+从空间完整性入手，识读扫描建筑图、重建可编辑 CAD，也可复核已有图纸。先辨认房间、走廊、楼梯间和井道的用途与相邻关系，再沿每个空间的边界走一圈，核对哪些位置应由墙分隔，门应通向哪里，窗应落在哪面墙上，哪些位置原本就开敞。发现围护中断、通道被堵或门窗错位时，对照原图修正，再从墙两侧的相邻空间分别复查。优先使用天正建筑原生构件。没有天正时，用普通 AutoCAD 的可编辑图元和块完成重建与检查。
 
 ## 先界定范围和证据
 
